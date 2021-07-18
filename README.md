@@ -28,7 +28,7 @@
     - Your project should have a component to display the quote and a component to display quote details. For example, the quote details could have the author of the quote and the votes it has.
     - Your project should contain a custom pipe that shows how much time has passed since the quote was created. 
 ##  Technologies used
-    HTML, TypeScript, JavaScript, Bootstrap 
+    HTML, TypeScript, Css, JavaScript, Bootstrap 
 ##  Contact information.
     Email: gozzo.ded@student.moringaschool.com
 ##  License and Copyright information.
