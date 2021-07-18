@@ -117,6 +117,14 @@
               "devServerTarget": "Steph:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/Steph",
+            "netlifyToken": "",
+            "siteId": ""
+          }
         }
       }
     }
