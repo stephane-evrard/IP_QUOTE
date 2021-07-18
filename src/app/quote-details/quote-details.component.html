@@ -1,0 +1,26 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-10 m-auto">
+            <div class="card text-center">
+
+                <div class="card-body">
+                    <h5 class="card-title">Author: {{ quote.authorName }}</h5>
+                    <p class="card-body">
+                        {{ quote.quote }}
+                    </p>
+                    <p class="card-text">
+                        Published by: {{ quote.nameOfPublisher }}
+                    </p>
+                    <a class="btn-sm btn-primary m-2 bg-light"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{
+                        quote.like }}</a>
+                    <a class="btn-sm btn-primary m-2 bg-light"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{
+                        quote.disLike }}</a>
+                    <a class="btn-sm  btn-danger text-white" (click)="deleteQuote(quote.id)">Delete</a>
+                </div>
+                <div class="card-footer text-muted">
+                    {{ quote.date | dateAgo }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
