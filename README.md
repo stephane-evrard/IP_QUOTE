@@ -1,27 +1,58 @@
-# Steph
+##   Name of Project.
+    IP Quotes
+    This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+##  Name of producers
+    Stephane Evrard Ded Gozzo
 
-## Development server
+##  Guide to Use App
+    When you click to add quote, you can add a quote through a form that will ask you:
+    -the author
+    -the name of publisher
+    -and the quote
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    If you enter anything the button create now can not work. 
+    If you fill everything you can create your quote
 
-## Code scaffolding
+    When you click on Home you back to home page when you can see all quotations.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    When you click on read more you can focus on that quotation that you have clicked on.
+    You can also delete the quote with the red button button delete
+    You can also see when they posted a quote.
+##  BDD
+    - Your Project should be created using the Angular CLI.
+    - Your project should contain a custom model class for the quote
+    - Your project should have a custom directive to highlight the quote that has the highest upvotes.
+    - Your project should contain a form component that has input sections for the quote, the author, and the person who submitted the quote.
+    - Each quote must begin with an initial upvote and downvote value of 0
+    - Your project should have a component to display the quote and a component to display quote details. For example, the quote details could have the author of the quote and the votes it has.
+    - Your project should contain a custom pipe that shows how much time has passed since the quote was created. 
+##  Technologies used
+    HTML, TypeScript, JavaScript, Bootstrap 
+##  Contact information.
+    Email: gozzo.ded@student.moringaschool.com
+##  License and Copyright information.
+    MIT License
 
-## Build
+    Copyright (c) 2021 Stephane Evrard Ded Gozzo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-## Running unit tests
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+##  Live link on Netlify
+    https://60f471add262932b4bea75f8--confident-pasteur-bd202d.netlify.app/quotes
