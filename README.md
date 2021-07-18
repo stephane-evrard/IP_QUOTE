@@ -55,4 +55,4 @@
     SOFTWARE.
 
 ##  Live link on Netlify
-    https://60f471add262932b4bea75f8--confident-pasteur-bd202d.netlify.app/quotes
+    https://confident-pasteur-bd202d.netlify.app/
