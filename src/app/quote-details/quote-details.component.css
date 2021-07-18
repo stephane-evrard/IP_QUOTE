@@ -1,0 +1,15 @@
+.bg-quote-detail{
+    border-radius: 15px;
+    box-shadow: 0 5px 5px black;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+
+}
+.bg-quote-detail-footer{
+    border-radius: 15px;
+    box-shadow: 0 5px 5px black;
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  
+    
+}

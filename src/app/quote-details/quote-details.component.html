@@ -1,9 +1,9 @@
-<div class="container mt-5">
+<div class="container mt-5 bg-quote-detail">
     <div class="row">
         <div class="col-md-10 m-auto">
-            <div class="card text-center">
+            <div class="card text-center ">
 
-                <div class="card-body">
+                <div class="card-body bg-quote-detail">
                     <h5 class="card-title">Author: {{ quote.authorName }}</h5>
                     <p class="card-body">
                         {{ quote.quote }}
@@ -17,7 +17,7 @@
                         quote.disLike }}</a>
                     <a class="btn-sm  btn-danger text-white" (click)="deleteQuote(quote.id)">Delete</a>
                 </div>
-                <div class="card-footer text-muted">
+                <div class="card-footer text-muted bg-quote-detail-footer">
                     {{ quote.date | dateAgo }}
                 </div>
             </div>
