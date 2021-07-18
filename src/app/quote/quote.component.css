@@ -1,0 +1,20 @@
+.bg-quote{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    box-shadow: 0 2px 5px black;
+    border-radius: 10px;
+}
+.quote-bg{
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+    box-shadow: 0 2px 5px black;
+    border-radius: 10px;
+}
+.bg-body{
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+}
+.bg-footer{
+    background-color: #f5f186;
+background-image: linear-gradient(315deg, #f5f186 0%, #9dfbc8 74%);
+}

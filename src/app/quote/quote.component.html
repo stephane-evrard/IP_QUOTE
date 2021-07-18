@@ -1,9 +1,9 @@
 <br><br>
 <div class="container bg-quote">
     <div class="row">
-        <div class="col col-md-6 mb-2" *ngFor="let item of quotes">
+        <div class="col col-md-6 mb-2 quote-bg" *ngFor="let item of quotes">
             <div class="card text-center">
-                <div class="card-body">
+                <div class="card-body bg-body">
                     <h5 class="card-title">Author: {{ item.authorName }}</h5>
                     <p class="card-body">
                         <i class="fa fa-quote-left" aria-hidden="true"></i> {{ item.quote }}
@@ -11,7 +11,7 @@
                     </p>
                     <a class="btn btn-primary" [routerLink]="[ '/detailView',item.id]">Read More</a>
                 </div>
-                <div class="card-footer text-muted">
+                <div class="card-footer text-muted bg-footer">
                     {{ item.date | dateAgo }}
                 </div>
             </div>
